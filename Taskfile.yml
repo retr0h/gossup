@@ -85,7 +85,7 @@ tasks:
       - task: deps
       - task: mod
       - task: fmt:check
-      # - task: vet
+      - task: vet
       - task: cov
       - task: unit:int
 
@@ -118,3 +118,4 @@ tasks:
   build:
     desc: Build ARCH compatible binary.
     cmds:
+      - goreleaser release --snapshot --clean

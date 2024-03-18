@@ -1,0 +1,6 @@
+---
+user:
+  sshd:
+    exists: true
+    uid: 75
+    gid: 74

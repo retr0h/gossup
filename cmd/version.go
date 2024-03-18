@@ -88,7 +88,7 @@ var (
 
 func init() {
 	rootCmd.AddCommand(versionCmd)
-	versionCmd.Flags().BoolVarP(&shortened, "short", "s", false, "Print just the version number.")
+	versionCmd.Flags().BoolVarP(&shortened, "short", "s", false, "Print just the version number")
 	versionCmd.Flags().
-		StringVarP(&output, "output", "o", "json", "Output format. One of 'yaml' or 'json'.")
+		StringVarP(&output, "output", "o", "json", "Output format. One of 'yaml' or 'json'")
 }

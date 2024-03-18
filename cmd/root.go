@@ -35,11 +35,20 @@ var (
 	logger *slog.Logger
 )
 
+func logFatal(message string, logGroup any) {
+	logger.Error(
+		message,
+		logGroup,
+	)
+
+	os.Exit(1)
+}
+
 // rootCmd represents the base command when called without any subcommands.
 var rootCmd = &cobra.Command{
 	Use:   "gossup",
-	Short: "A simplistic Go based system automation tool.",
-	Long: `A simple command-line tool to carry out system automation tasks.
+	Short: "A simplistic Go based system automation tool",
+	Long: `A simple command-line tool to carry out system automation tasks
 
 (~| _  _ _   |)
  _|(_)_\_\|_||
