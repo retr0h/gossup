@@ -23,7 +23,7 @@ module github.com/retr0h/gossup
 go 1.21
 
 require (
-	github.com/lmittmann/tint v1.0.6
+	github.com/lmittmann/tint v1.0.7
 	github.com/spf13/cobra v1.8.1
 	github.com/spf13/viper v1.19.0
 	go.hein.dev/go-version v0.1.0
