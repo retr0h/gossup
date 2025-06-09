@@ -25,7 +25,7 @@ go 1.21.0
 toolchain go1.24.1
 
 require (
-	github.com/lmittmann/tint v1.1.1
+	github.com/lmittmann/tint v1.1.2
 	github.com/spf13/cobra v1.9.1
 	github.com/spf13/viper v1.20.1
 	go.hein.dev/go-version v0.1.0
